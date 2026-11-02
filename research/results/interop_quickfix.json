@@ -1,0 +1,39 @@
+{
+ "quickfix_version_dictionary": "FIX44.xml",
+ "A_fixwire_initiator_vs_quickfix_acceptor": {
+  "orders_sent": 20000,
+  "quickfix_orders_accepted": 20000,
+  "unique_ids": 20000,
+  "fills_received_by_fixwire": 20000,
+  "quickfix_session_rejects_received": 0,
+  "duplicate_fill_reports": 0,
+  "seconds": 2.601428985595703,
+  "client_rtt_us": {
+   "p50": 3936.3,
+   "p90": 4903.7,
+   "p99": 5781.2,
+   "p999": 6338.7,
+   "max": 6569.5
+  }
+ },
+ "B_quickfix_initiator_vs_fixwire_acceptor": {
+  "orders_sent_by_quickfix": 5000,
+  "fills_received_by_quickfix": 5000,
+  "quickfix_session_rejects_received": 0,
+  "seconds": 0.49311208724975586,
+  "fixwire_exchange_log_tail": "fixwire-exchange: session ended: received 5002, app 5000, sent 10002, resend_requests_served 0, resent 0"
+ },
+ "C_crash_restart_resend_against_quickfix": {
+  "run1_orders": 600,
+  "run1_fills": 550,
+  "run2_recovered_fills_from_run1": 50,
+  "run2_orders": 400,
+  "run2_new_fills": 400,
+  "total_fills_for_1000_orders": 1000,
+  "quickfix_unique_orders": 1000,
+  "quickfix_orders_accepted": 1000,
+  "duplicate_fill_reports": 0,
+  "resend_requests_sent_by_fixwire": 1,
+  "possdup_duplicates_ignored": 1
+ }
+}

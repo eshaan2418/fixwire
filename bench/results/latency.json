@@ -1,0 +1,10 @@
+{"load": "4.57 4.74 5.16", "runs": [
+{"window": 1, "store": "memory", "result": {"recovered_fills_from_previous_run": 0, "orders_sent": 50000, "fills_received": 50000, "duplicate_fill_reports": 0, "seconds": 1.321, "orders_per_sec": 37843, "rtt_us": {"p50": 20.0, "p90": 33.1, "p99": 71.0, "p999": 1049.3, "max": 7994.2}, "window": 1, "next_out": 50002, "next_in": 100002, "resend_requests_sent": 0, "duplicates_ignored": 0, "crashed": false}}
+,
+{"window": 4, "store": "memory", "result": {"recovered_fills_from_previous_run": 0, "orders_sent": 50000, "fills_received": 50000, "duplicate_fill_reports": 0, "seconds": 0.356, "orders_per_sec": 140470, "rtt_us": {"p50": 25.2, "p90": 33.5, "p99": 57.0, "p999": 84.8, "max": 317.2}, "window": 4, "next_out": 50002, "next_in": 100002, "resend_requests_sent": 0, "duplicates_ignored": 0, "crashed": false}}
+,
+{"window": 16, "store": "memory", "result": {"recovered_fills_from_previous_run": 0, "orders_sent": 50000, "fills_received": 50000, "duplicate_fill_reports": 0, "seconds": 0.261, "orders_per_sec": 191470, "rtt_us": {"p50": 78.6, "p90": 87.2, "p99": 133.2, "p999": 187.9, "max": 491.0}, "window": 16, "next_out": 50002, "next_in": 100002, "resend_requests_sent": 0, "duplicates_ignored": 0, "crashed": false}}
+,
+{"window": 64, "store": "memory", "result": {"recovered_fills_from_previous_run": 0, "orders_sent": 50000, "fills_received": 50000, "duplicate_fill_reports": 0, "seconds": 0.287, "orders_per_sec": 173984, "rtt_us": {"p50": 310.0, "p90": 361.5, "p99": 1427.3, "p999": 8592.5, "max": 8904.1}, "window": 64, "next_out": 50002, "next_in": 100002, "resend_requests_sent": 0, "duplicates_ignored": 0, "crashed": false}}
+, {"window": 64, "store": "file", "result": {"recovered_fills_from_previous_run": 0, "orders_sent": 50000, "fills_received": 50000, "duplicate_fill_reports": 0, "seconds": 1.393, "orders_per_sec": 35902, "rtt_us": {"p50": 873.5, "p90": 1225.0, "p99": 2058.5, "p999": 4936.2, "max": 27268.5}, "window": 64, "next_out": 50002, "next_in": 100002, "resend_requests_sent": 0, "duplicates_ignored": 0, "crashed": false}}
+]}

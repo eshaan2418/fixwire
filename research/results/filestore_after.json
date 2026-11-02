@@ -1,0 +1,1 @@
+{"recovered_fills_from_previous_run": 0, "orders_sent": 20000, "fills_received": 20000, "duplicate_fill_reports": 0, "seconds": 0.433, "orders_per_sec": 46167, "rtt_us": {"p50": 688.7, "p90": 1094.1, "p99": 1951.4, "p999": 2333.3, "max": 4472.5}, "window": 64, "next_out": 20002, "next_in": 40002, "resend_requests_sent": 0, "duplicates_ignored": 0, "crashed": false}

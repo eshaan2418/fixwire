@@ -1,0 +1,5 @@
+$ fixwire-client --port 19895 --orders 20000 --window 16
+{"recovered_fills_from_previous_run": 0, "orders_sent": 20000, "fills_received": 20000, "duplicate_fill_reports": 0, "seconds": 0.255, "orders_per_sec": 78297, "rtt_us": {"p50": 138.2, "p90": 183.3, "p99": 3070.7, "p999": 10103.5, "max": 11045.5}, "window": 16, "next_out": 20002, "next_in": 40002, "resend_requests_sent": 0, "duplicates_ignored": 0, "crashed": false}
+fixwire-exchange: listening on 127.0.0.1:19895 as EXCH
+fixwire-exchange: logon
+fixwire-exchange: session ended: received 20001, app 20000, sent 40001, resend_requests_served 0, resent 0

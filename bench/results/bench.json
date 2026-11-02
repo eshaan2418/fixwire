@@ -1,0 +1,1 @@
+{"parse_new_order_single_ns": 70.2, "parse_execution_report_ns": 85.8, "build_execution_report_ns": 169.9, "nos_bytes": 163, "er_bytes": 192, "parse_er_mb_per_s": 2237, "sink": 6}
